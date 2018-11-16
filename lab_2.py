@@ -1,2 +1,2 @@
-def g(string, n):
-    return "Not a string" if not string.isalpha() else string * n
+def countstring(string, n):
+    return string * n if string.isalpha() else "Not a string"
